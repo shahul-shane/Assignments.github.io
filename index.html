@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+	<link rel="stylesheet" href="style.css">
+<!--Using-FontAwesome------>
+	<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	
+<section class="background">
+	<!----Navigation-------->
+	<nav>
+	<!---logo---->
+		<a class="logo">Shahul</a>	
+	<!---Menu---->
+		<span class="wrapper">
+		<ul>
+ 		<li><a class="active" href="./Subs/M4.html" id="home">Home</a></li>
+		<li><a class="active" href="./Subs/M4.html" id="home">M4</a></li>
+		<li><a class="active" href="./Subs/DAA.html" id="home">DAA</a></li>
+		<li><a class="active" href="./Subs/MES.html" id="home">MES</a></li>
+		<li><a class="active" href="./Subs/OOC.html" id="home">OOC</a></li>
+		<li><a href="./Subs/DC.html" id="home">DC</a></li>
+		<li><a href="./Subs/OS.html" id="home">OS</a></li>
+		</ul>
+		</span>
+	<!--bars----------->
+		<div class="toggle"></div>
+	</nav>
+	<!-------Header-------->
+	<p class="head">Hi, This is Shahul Download My Assignments/Unit Test Here!</p>
+	<!-------Header2-------->
+	<p class="head2">Select Subject</p>
+	<!--box---------------->
+	<div class="box-container">
+		<!--Basic_Scienec----------------->
+		<div class="box-1">
+			<span></span>
+			<p class="heading">Maths</p>
+			<button class="hire-btn"><a href="./Subs/M4.html" id="download">Open</a></button>
+		</div>
+	
+		<!--Maths----------------->
+		<div class="separator">		
+		<div class="box-2">
+			<span></span>
+			<p class="heading">DAA</p>
+			<button><a href="./Subs/DAA.html"  id="download">Open</a></button>
+		</div>
+		</div>
+		<!--CPC----------------->
+		<div class="separator">
+			<div class="box-3">
+			<span></span>
+			<p class="heading">MES</p>
+			<button><a href="./Subs/MES.html"  id="download">Open</a></button>
+		</div>
+		</div>	
+	</div>
+	<div class="box-container1">
+		<!--CSE/ISE----------------->
+		<div class="separator">
+		<div class="box-3">
+			<span></span>
+			<p class="heading">OOC</p>
+			<button><a href="./Subs/OOC.html"  id="download">Open</a></button>
+		</div>
+		</div>
+		<!--ECE----------------->
+		<div class="separator">	
+		<div class="box-4">
+			<span></span>
+			<p class="heading">DC</p>
+			<button><a href="./Subs/DC.html"  id="download">Open</a></button>
+		</div>
+		</div>
+		<!--EEE---------------->
+		<div class="separator">
+		<div class="box-5">
+			<span></span>
+			<p class="heading">OS</p>
+			<button class="hire-btn"><a href="./Subs/OS.html"  id="download">Open</a></button>
+		</div>
+		</div>
+	</div>
+</section>
+	<!--copyright-------->
+	<p class="copyright">Copyright &#169 2021 by Shahul Shane</p>
+
+<!---JQuery-------->
+<script type="text/javascript" src="./js/JQuery.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+		$('.toggle').click(function(){
+			$('.toggle').toggleClass('active')
+			$('nav').toggleClass('active')
+		})
+	})
+	</script>
+</body>
+</html>
+
